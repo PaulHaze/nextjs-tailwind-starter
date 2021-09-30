@@ -2,7 +2,11 @@ const colors = require('tailwindcss/colors');
 
 module.exports = {
   mode: 'jit',
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+  purge: [
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+    './features/**/*.{js,ts,jsx,tsx}',
+  ],
   theme: {
     screens: {
       sm: '640px',
@@ -45,6 +49,13 @@ module.exports = {
         purple: colors.purple,
       },
       minWidth: {
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px',
+        '2xl': '1536px',
+      },
+      maxWidth: {
         sm: '640px',
         md: '768px',
         lg: '1024px',
