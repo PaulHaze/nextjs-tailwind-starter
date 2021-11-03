@@ -15,5 +15,6 @@
       "@/public/*": ["public/*"]
       // "@Sections": ["sections/index"]
     }
-  }
+  },
+  "exclude": ["node_modules"]
 }
