@@ -13,7 +13,7 @@ export default function Home() {
             Im your new Tailwind Project!
           </h1>
           <p className="text-[#504e63] text-center">
-            Delete this and make something great
+            Delete this and make something greattt
           </p>
         </div>
       </div>
