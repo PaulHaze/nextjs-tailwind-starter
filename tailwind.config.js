@@ -67,6 +67,7 @@ module.exports = {
         lg: '4rem',
         xl: '8rem',
         '2xl': '16rem',
+        '4xl': '32rem',
       },
     },
   },
