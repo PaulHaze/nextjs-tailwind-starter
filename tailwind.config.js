@@ -2,7 +2,7 @@ const colors = require('tailwindcss/colors');
 
 module.exports = {
   mode: 'jit',
-  purge: [
+  content: [
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
     './features/**/*.{js,ts,jsx,tsx}',
@@ -37,11 +37,10 @@ module.exports = {
         green: colors.green,
         emerald: colors.emerald,
         orange: colors.orange,
-        bluegray: colors.blueGray,
-        coolgray: colors.coolGray,
-        truegray: colors.trueGray,
-        warmgray: colors.warmGray,
-        gray: colors.gray,
+        slate: colors.slate,
+        coolgray: colors.gray,
+        truegray: colors.neutral,
+        stone: colors.stone,
         amber: colors.amber,
         yellow: colors.yellow,
         sky: colors.sky,
