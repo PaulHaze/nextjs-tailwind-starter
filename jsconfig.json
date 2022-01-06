@@ -2,18 +2,12 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      // I think this can replace a lot of the bottom
       "@/*": ["./*"],
-      "@/components/*": ["components/*"],
       "@Components": ["components/index"],
       "@Styles/*": ["styles/*"],
-      "@/styles/*": ["styles/*"],
       "@Layouts": ["layouts/index"],
-      "@/layouts/*": ["layouts/*"],
       "@Features": ["features/index"],
-      "@/features/*": ["features/*"],
-      "@/public/*": ["public/*"]
-      // "@Sections": ["sections/index"]
+      "@Sections": ["sections/index"]
     }
   },
   "exclude": ["node_modules"]
