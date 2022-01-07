@@ -1,4 +1,4 @@
-const colors = require('tailwindcss/colors');
+// const colors = require('tailwindcss/colors');
 
 module.exports = {
   mode: 'jit',
@@ -29,24 +29,24 @@ module.exports = {
       center: true,
     },
     extend: {
-      colors: {
-        rose: colors.rose,
-        fuchsia: colors.fuchsia,
-        teal: colors.teal,
-        lime: colors.lime,
-        green: colors.green,
-        emerald: colors.emerald,
-        orange: colors.orange,
-        slate: colors.slate,
-        coolgray: colors.gray,
-        truegray: colors.neutral,
-        stone: colors.stone,
-        amber: colors.amber,
-        yellow: colors.yellow,
-        sky: colors.sky,
-        violet: colors.violet,
-        purple: colors.purple,
-      },
+      // colors: {
+      //   rose: colors.rose,
+      //   fuchsia: colors.fuchsia,
+      //   teal: colors.teal,
+      //   lime: colors.lime,
+      //   green: colors.green,
+      //   emerald: colors.emerald,
+      //   orange: colors.orange,
+      //   slate: colors.slate,
+      //   coolgray: colors.gray,
+      //   truegray: colors.neutral,
+      //   stone: colors.stone,
+      //   amber: colors.amber,
+      //   yellow: colors.yellow,
+      //   sky: colors.sky,
+      //   violet: colors.violet,
+      //   purple: colors.purple,
+      // },
       minWidth: {
         sm: '640px',
         md: '768px',

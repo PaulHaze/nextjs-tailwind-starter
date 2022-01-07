@@ -15,6 +15,7 @@ export default function Home() {
           <p className="text-[#504e63] text-center">
             Delete this and make something great!
           </p>
+          <div className="w-40 h-40 mt-5 bg-stone-400">Test</div>
         </div>
       </div>
     </div>
