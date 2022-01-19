@@ -1,11 +1,9 @@
-// const colors = require('tailwindcss/colors');
-
 module.exports = {
-  mode: 'jit',
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
     './features/**/*.{js,ts,jsx,tsx}',
+    './layouts/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     screens: {
@@ -29,24 +27,6 @@ module.exports = {
       center: true,
     },
     extend: {
-      // colors: {
-      //   rose: colors.rose,
-      //   fuchsia: colors.fuchsia,
-      //   teal: colors.teal,
-      //   lime: colors.lime,
-      //   green: colors.green,
-      //   emerald: colors.emerald,
-      //   orange: colors.orange,
-      //   slate: colors.slate,
-      //   coolgray: colors.gray,
-      //   truegray: colors.neutral,
-      //   stone: colors.stone,
-      //   amber: colors.amber,
-      //   yellow: colors.yellow,
-      //   sky: colors.sky,
-      //   violet: colors.violet,
-      //   purple: colors.purple,
-      // },
       minWidth: {
         sm: '640px',
         md: '768px',
