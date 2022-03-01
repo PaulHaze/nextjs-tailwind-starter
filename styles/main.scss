@@ -18,13 +18,19 @@
   h5 {
     @apply text-lg font-normal leading-normal;
   }
-  a {
-    @apply text-blue-600;
-  }
 }
 
 @layer components {
   .bb {
-    @apply border border-red-600 sm:border-blue-600 md:border-green-600 lg:border-black
+    @apply border border-red-600 sm:border-blue-600 md:border-green-600 lg:border-black;
+  }
+  .bb-2 {
+    @apply border border-green-600 sm:border-red-600 md:border-blue-600 lg:border-pink-600;
+  }
+}
+
+@layer utilities {
+  .flex-center {
+    @apply flex items-center justify-center;
   }
 }

@@ -7,6 +7,7 @@ module.exports = {
   ],
   theme: {
     screens: {
+      ssm: '415px',
       sm: '640px',
       md: '768px',
       lg: '1024px',
@@ -28,6 +29,7 @@ module.exports = {
     },
     extend: {
       minWidth: {
+        ssm: '415px',
         sm: '640px',
         md: '768px',
         lg: '1024px',
@@ -35,6 +37,7 @@ module.exports = {
         '2xl': '1536px',
       },
       maxWidth: {
+        ssm: '415px',
         sm: '640px',
         md: '768px',
         lg: '1024px',
